@@ -1,0 +1,59 @@
+body{
+    background:linear-gradient(#24d62a 0%,#d69b24 100%);
+     background-image: url("wall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+
+}
+.login_class1,.login_class2{
+    background:violet;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+}
+#player1_Name,#player2_Name,#password1,#password2{
+    font-weight: bold;
+   display: inline-block;
+    color: darkblue;
+    font-style: oblique;
+}
+#word{
+    width: 60%;
+    
+}
+#word-display{
+    letter-spacing: 5px;
+}
+#output{
+    background: azure;
+    border-radius: 10px;
+   border-top: 10px solid grey;
+    padding: 10px;
+    
+    float:none;
+    text-align: left;
+}
+.container{
+    background-color:blueviolet;
+    padding: 10px;
+    float: none;
+    border-radius: 45px 45px;
+    
+}
+input[type="text"],input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border:2px solid darkgreen;
+    background-color:greenyellow;
+    color:darkmagenta;
+    font-size:16px;
+}
+label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+
